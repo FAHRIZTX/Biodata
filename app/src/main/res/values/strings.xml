@@ -1,7 +1,10 @@
 <resources>
-    <string name="app_name">TugasPPB</string>
-    <string name="font_awesome_facebook_icon">&#xf082;</string>
-    <string name="font_awesome_instagram_icon">&#xf16d;</string>
-    <string name="font_awesome_github_icon">&#xf092;</string>
-    <string name="font_awesome_linkedin_icon">&#xf08c;</string>
+    <string name="app_name">Biodataku</string>
+    <string name="fa_facebook">&#xf082;</string>
+    <string name="fa_instagram">&#xf16d;</string>
+    <string name="fa_github">&#xf092;</string>
+    <string name="fa_linkedin">&#xf08c;</string>
+    <string name="fa_mail">&#xf0e0;</string>
+    <string name="fa_phone">&#xf095;</string>
+    <string name="fa_whatsapp">&#xf232;</string>
 </resources>

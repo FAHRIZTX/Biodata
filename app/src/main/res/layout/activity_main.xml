@@ -81,6 +81,11 @@
                             android:textSize="24sp"
                             android:textStyle="bold" />
 
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@drawable/bg_profile"/>
+
                     </LinearLayout>
 
                 </RelativeLayout>
@@ -169,30 +174,38 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/iv_profile"
                     android:layout_margin="16dp"
-                    android:orientation="vertical">
+                    android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:id="@+id/phone"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingBottom="8dp"
-                        android:text="Contact : "
-                        android:textSize="18sp" />
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/fa_phone"
+                        android:textColor="#0491d2"
+                        android:textSize="50sp" />
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:id="@+id/mail"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingBottom="8dp"
-                        android:text="Email\t\t: fahriztx77@gmail.com"
-                        android:textSize="18sp" />
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/fa_mail"
+                        android:textColor="#0491d2"
+                        android:textSize="50sp" />
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:id="@+id/whatsapp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingBottom="8dp"
-                        android:text="Phone\t\t: 085895784355"
-                        android:textSize="18sp" />
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/fa_whatsapp"
+                        android:textColor="#0491d2"
+                        android:textSize="50sp" />
 
                 </LinearLayout>
 
@@ -223,7 +236,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
-                        android:text="@string/font_awesome_github_icon"
+                        android:text="@string/fa_github"
                         android:textColor="#0491d2"
                         android:textSize="50sp" />
 
@@ -233,7 +246,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
-                        android:text="@string/font_awesome_linkedin_icon"
+                        android:text="@string/fa_linkedin"
                         android:textColor="#0491d2"
                         android:textSize="50sp" />
 
@@ -243,7 +256,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
-                        android:text="@string/font_awesome_instagram_icon"
+                        android:text="@string/fa_instagram"
                         android:textColor="#0491d2"
                         android:textSize="50sp" />
 
@@ -253,7 +266,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
-                        android:text="@string/font_awesome_facebook_icon"
+                        android:text="@string/fa_facebook"
                         android:textColor="#0491d2"
                         android:textSize="50sp" />
 
